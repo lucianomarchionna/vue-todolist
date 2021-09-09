@@ -7,6 +7,10 @@
 .container{
     width: 80%;
     margin: 0 auto;
+}
+
+.logo,
+.nav{
     text-align: center;
 }
 
@@ -27,4 +31,20 @@ img{
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0;
+}
+
+.tasks{
+    margin-top: 100px;
+    font-size: 40px;
 }
